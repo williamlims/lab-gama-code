@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* -- Header Desktop --  */
+
+header {
+    background-color: #2e7794;
+    width: 100%;
+}
+
+.header-desktop {
+    display: flex;
+    height: 70px;
+    margin: 0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.espaco-logo {
+    width: 30%;
+    padding-left: 82px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header-desktop .menu-desktop {
+    width: 70%;
+    text-transform: uppercase;
+}
+
+header .header-desktop ul {
+    display: flex;
+    list-style: none;
+    float: right;
+    padding-right: 103px;
+}
+
+header .header-desktop ul li {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+header .header-desktop ul li a {
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+header .header-desktop ul li {
+    padding: 10px 10px 10px 10px;
+}
+
+header .header-desktop ul li:last-child {
+    border-radius: 10px;
+    background-color: #216078;
+    margin-left: 20px;
+}
+
+
+.header-mobile {
+    display: none;
+}
+
+/* -- Menu Mobile -- */
+
+@media (max-width:480px){
+
+.header-desktop {
+    display: none;
+}
+
+.header-mobile {
+    display: block;
+}
+
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.header-mobile {
+    overflow: hidden;
+    background-color: #2e7794;
+    position: relative;
+    height: 40px;
+    padding: 20px 10px 10px 10px;
+    color: #fff;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
+
+
+.header-mobile a {
+  color: white;
+  padding: 14px 16px;
+  font-size: 17px;
+  display: block;
+}
+
+.header-mobile a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 16px;
+    font-size: 25px;
+}
+
+.header-mobile a:hover {
+  color: #216078;
+}
+
+.active {
+  background-color: #fff;
+  color: #216078; 
+}
+
+}

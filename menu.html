@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>LAB GAMA GRUPO 6</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-desktop">
+            <div class="espaco-logo">
+                <span>GRUPO 6 • LAB</span>
+            </div>
+            <!-- Menu Desktop -->
+            <div class="menu-desktop">
+                <nav role="navigation">
+                    <ul role="menu">
+                        <li>
+                            <a href="home.html" role="menuitem">Home</a>
+                        </li>
+                        <li>
+                            <a href="login.html" role="menuitem">Login</a>
+                        </li>
+                        <li>
+                            <a href="cadastro.html" role="menuitem">Cadastro</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Menu do Mobile -->
+        <div class="header-mobile">
+            <span>GRUPO 6 • LAB</span>
+            <div id="menu-mobile">
+                <a href="home.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="cadastro.html">Cadastro</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="abrirMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+    </header>
+    <main>
+    </main>
+    <footer>
+    </footer>
+
+    <script>
+        function abrirMenu() {
+            var x = document.getElementById("menu-mobile");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+    </div>
+</body>
+
+</html>
