@@ -78,6 +78,9 @@ header .header-desktop ul li:last-child {
     display: block;
 }
 
+#menu-mobile{
+    display: none;
+}
 
 .mobile-container {
   max-width: 480px;
