@@ -6,7 +6,7 @@
 /* -- Header Desktop --  */
 
 header {
-    background-color: #2e7794;
+    background-color: #495e79;
     width: 100%;
 }
 
@@ -57,7 +57,7 @@ header .header-desktop ul li {
 
 header .header-desktop ul li:last-child {
     border-radius: 10px;
-    background-color: #216078;
+    background-color: #6c829f;
     margin-left: 20px;
 }
 
@@ -93,10 +93,9 @@ header .header-desktop ul li:last-child {
 
 .header-mobile {
     overflow: hidden;
-    background-color: #2e7794;
+    background-color: #495e79;
     position: relative;
-    height: 40px;
-    padding: 20px 10px 10px 10px;
+    padding: 20px 10px 20px 10px;
     color: #fff;
     font-family: 'Open Sans';
     text-transform: uppercase;
