@@ -123,8 +123,7 @@ header .header-desktop ul li:last-child {
 }
 
 .active {
-  background-color: #fff;
-  color: #216078; 
+  color: #fff; 
 }
 
 }
