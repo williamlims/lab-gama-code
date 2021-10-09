@@ -95,8 +95,7 @@ header .header-desktop ul li:last-child {
     overflow: hidden;
     background-color: #2e7794;
     position: relative;
-    height: 40px;
-    padding: 20px 10px 10px 10px;
+    padding: 20px 10px 20px 10px;
     color: #fff;
     font-family: 'Open Sans';
     text-transform: uppercase;
