@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.div-h1 {
+    display: flex;
+    justify-content: center;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+
+}
+
+form div input {
+    width: 300px;
+    border-radius: 2px solid black;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 0px 0px 10px 0px;
+}
+
+.data {
+    padding: 5px
+}
+
+form div select {
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+form div button {
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: transparent
+}
